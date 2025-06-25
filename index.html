@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>adam coffee menu</title>
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      // alert("welcome to adam coffee menu!");
+    </script>
+  </head>
+  <body>
+    <center><h1>adam coffee menu</h1></center>
+    <head>
+      <title>adam coffee menu</title>
+    </head>
+    <header>
+      <h1 id="menu title">adam coffee menu</h1>
+      <p class="note">welcom ! here's what we 're brewing today:</p>
+    </header>
+    <center>
+      <nav>
+        <a href="#boissons">boissons</a>
+        <a href="#cafe">cafe</a>
+        <a href="#les plats">les plats</a>
+        <a href="#pizza">pizza</a>
+        <a href="#les crepes">les crepes</a>
+      </nav>
+    </center>
+    <button
+      class="btn btn-primary btn-lg mt-5"
+      onclick="alert('welcome to adam coffee menu !')"
+    >
+      say hello
+    </button>
+    <p class="mt-5" id="order-msg"></p>
+    <button class="btn btn-primary btn-lg mt-1" onclick="placeorder()">
+      place order
+    </button>
+    <script>
+      function placeorder() {
+        let drink = prompt("wath's your favourite drink?");
+        alert("yum! " + drink + " sounds delicious");
+        consol.log("user favorite drink is", drink);
+      }
+      function () {
+        let drink = prompt("wath's your favourite drink?");
+        alert("yum! " + drink + " sounds delicious");
+        consol.log("user favorite drink is", drink);
+      }
+    </script>
+    <h1>boissons</h1>
+    <ul>
+      <li>mojito</li>
+      <li>jus</li>
+      <li>the</li>
+    </ul>
+    <h1>cafe</h1>
+    <ul>
+      <li>express</li>
+      <li>allenge</li>
+      <li>cafe au lait</li>
+      <li>cafe creme</li>
+    </ul>
+    <h1>les plats</h1>
+    <ul>
+      <li>plat escalop panne</li>
+      <li>plat escalop griee</li>
+      <li>plat chawarma</li>
+    </ul>
+    <h1>pizza</h1>
+    <ul>
+      <li>margerita</li>
+      <li>neptune</li>
+      <li>peperoni</li>
+    </ul>
+    <h1>les crepes</h1>
+    <h2>crepes sale</h2>
+    <ul>
+      <li>crepe jombon</li>
+      <li>crepe salami</li>
+      <li>crepe fromage</li>
+    </ul>
+    <h2>crepes succre</h2>
+    <ul>
+      <li>crepe chocolat</li>
+      <li>crepe nutella</li>
+    </ul>
+  </body>
+</html>
